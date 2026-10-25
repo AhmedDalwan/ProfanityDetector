@@ -1658,7 +1658,18 @@ namespace ProfanityFilter
              "null",
              "undefined",
              "anonymous",
-             "unknown"
+             "unknown",
+             "spacetoon",
+             "space toon",
+             "space-toon",
+             "spacetoon tv",
+             "gamepower7",
+             "game power 7",
+             "game-power-7",
+             "gamepower 7",
+             "gamepower seven",
+             "game power seven",
+             "gp7",
         };
     }
 }
