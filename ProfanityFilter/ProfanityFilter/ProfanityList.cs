@@ -1644,6 +1644,21 @@ namespace ProfanityFilter
              "zibbi",
              "zoophilia",
              "zubb",
+
+             // Custom
+             "admin",
+             "administrator",
+             "moderator",
+             "support",
+             "system",
+             "owner",
+             "developer",
+             "dev",
+             "staff",
+             "null",
+             "undefined",
+             "anonymous",
+             "unknown"
         };
     }
 }
