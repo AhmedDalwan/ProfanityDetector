@@ -898,5 +898,25 @@ namespace ProfanityFilter.Tests.Unit
 
             Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        [DataRow("ضـهورة")]
+        [DataRow("ادمن")]
+        public void ContainsProfanityReturnsTrueForArabicCustomWords(string input)
+        {
+            var filter = new ProfanityFilter();
+
+            Assert.IsTrue(filter.ContainsProfanity(input));
+        }
+
+        [TestMethod]
+        [DataRow("5arwat")]
+        [DataRow("MAM7OON")]
+        public void ContainsProfanityReturnsTrueForEnglishCustomWords(string input)
+        {
+            var filter = new ProfanityFilter();
+
+            Assert.IsTrue(filter.ContainsProfanity(input));
+        }
     }
 }

@@ -272,7 +272,9 @@ namespace ProfanityFilter
                 return false;
             }
 
-            Regex regex = new Regex(string.Format(@"(?:{0})", string.Join("|", potentialProfanities).Replace("$", "\\$"), RegexOptions.IgnoreCase));
+            Regex regex = new Regex(
+                string.Format(@"(?:{0})", string.Join("|", potentialProfanities).Replace("$", "\\$")),
+                RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
 
             foreach (Match profanity in regex.Matches(term))
             {

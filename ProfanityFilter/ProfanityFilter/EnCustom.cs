@@ -1,0 +1,57 @@
+namespace ProfanityFilter
+{
+    public partial class ProfanityBase
+    {
+        private readonly string[] _enCustomWordList =
+        {
+            // Imported from Whitelist-Blacklist.xlsx / Forbidden.
+            "fuck",
+            "penis",
+            "cock",
+            "rod",
+            "pussy",
+            "vulva",
+            "vagina",
+            "breast",
+            "nipple",
+            "nipples",
+            "screw",
+            "dildoe",
+            "prostitution",
+            "adultery",
+            "5arwat",
+            "sexy",
+            "bitch",
+            "hore",
+            "ass",
+            "deck",
+            "5ara",
+            "6ex",
+            "b5she",
+            "2eeeer",
+            "b5sh",
+            "5rya",
+            "3rs",
+            "3r6",
+            "2eer",
+            "8a7be",
+            "3ahra",
+            "6eez",
+            "ks",
+            "shramee6",
+            "sharmoo6a",
+            "2er",
+            "mnoyok",
+            "zb",
+            "zeb",
+            "bzz",
+            "mam7oon",
+            "8oad",
+            "7lmeh",
+            "mam7oneh",
+            "mntake",
+            "6izek",
+            "7myane",
+        };
+    }
+}

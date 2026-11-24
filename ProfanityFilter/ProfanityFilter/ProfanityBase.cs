@@ -35,6 +35,8 @@ namespace ProfanityFilter
         {
             _profanities = new List<string>(_wordList);
             _profanities.AddRange(_arabicWordList);
+            _profanities.AddRange(_arCustomWordList);
+            _profanities.AddRange(_enCustomWordList);
         }
 
         /// <summary>
